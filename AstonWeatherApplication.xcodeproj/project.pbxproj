@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36413E612FA75D2AE568D5CB /* Pods_AstonWeatherApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E817E0A8A08D8D0F3B1A75BB /* Pods_AstonWeatherApplication.framework */; };
+		EB2DAE0C2A6E9B8D00926C0D /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DAE0B2A6E9B8D00926C0D /* Extension + UIView.swift */; };
+		EB7BAC3F2A76B61400224EDB /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7BAC3E2A76B61400224EDB /* DetailViewModel.swift */; };
+		EB8700F92A6FABB0007BC434 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8700F82A6FABB0007BC434 /* MainViewModel.swift */; };
 		EBA0FBD32A67CF5800F83FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBD22A67CF5800F83FBC /* AppDelegate.swift */; };
 		EBA0FBD52A67CF5800F83FBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBD42A67CF5800F83FBC /* SceneDelegate.swift */; };
-		EBA0FBD72A67CF5800F83FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBD62A67CF5800F83FBC /* ViewController.swift */; };
-		EBA0FBDA2A67CF5800F83FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA0FBD82A67CF5800F83FBC /* Main.storyboard */; };
 		EBA0FBDC2A67CF5900F83FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA0FBDB2A67CF5900F83FBC /* Assets.xcassets */; };
 		EBA0FBDF2A67CF5900F83FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA0FBDD2A67CF5900F83FBC /* LaunchScreen.storyboard */; };
+		EBA0FBEB2A67DB4100F83FBC /* MainWeatherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBEA2A67DB4100F83FBC /* MainWeatherViewCell.swift */; };
+		EBA0FBEE2A67E26700F83FBC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBED2A67E26700F83FBC /* MainViewController.swift */; };
+		EBA0FBF22A67E61100F83FBC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBF12A67E61100F83FBC /* DetailViewController.swift */; };
+		EBA0FBF42A67EA4200F83FBC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBF32A67EA4200F83FBC /* NetworkManager.swift */; };
+		EBA0FBF72A67EB0200F83FBC /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBF62A67EB0200F83FBC /* WeatherData.swift */; };
+		EBA0FBF92A67EC0D00F83FBC /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBF82A67EC0D00F83FBC /* Weather.swift */; };
+		EBA0FBFE2A67F7A100F83FBC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBFD2A67F7A100F83FBC /* Constant.swift */; };
+		EBA0FC002A680CC900F83FBC /* AddCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FBFF2A680CC900F83FBC /* AddCity.swift */; };
+		EBBEBC1E2A6AA0FD0018C945 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBEBC1D2A6AA0FD0018C945 /* ForecastTableViewCell.swift */; };
+		EBBEBC4A2A6D28A20018C945 /* Extension + Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBEBC492A6D28A20018C945 /* Extension + Int.swift */; };
+		EBD3AAE72A77C9FC001B2A26 /* MainWeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3AAE62A77C9FB001B2A26 /* MainWeatherCellViewModel.swift */; };
+		EBD3AAE92A77DC43001B2A26 /* ForecastCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3AAE82A77DC43001B2A26 /* ForecastCellViewModel.swift */; };
+		EBD3AAEC2A77EAB0001B2A26 /* GetCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3AAEB2A77EAB0001B2A26 /* GetCoordinate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		825E0EE3AA57ACEA3E387A89 /* Pods-AstonWeatherApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstonWeatherApplication.release.xcconfig"; path = "Target Support Files/Pods-AstonWeatherApplication/Pods-AstonWeatherApplication.release.xcconfig"; sourceTree = "<group>"; };
+		8E8DA9CA44129EB8F2DACA67 /* Pods-AstonWeatherApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstonWeatherApplication.debug.xcconfig"; path = "Target Support Files/Pods-AstonWeatherApplication/Pods-AstonWeatherApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		E817E0A8A08D8D0F3B1A75BB /* Pods_AstonWeatherApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstonWeatherApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2DAE0B2A6E9B8D00926C0D /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		EB7BAC3E2A76B61400224EDB /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		EB8700F82A6FABB0007BC434 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		EBA0FBCF2A67CF5800F83FBC /* AstonWeatherApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstonWeatherApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA0FBD22A67CF5800F83FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBA0FBD42A67CF5800F83FBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBA0FBD62A67CF5800F83FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EBA0FBD92A67CF5800F83FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBA0FBDB2A67CF5900F83FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBA0FBDE2A67CF5900F83FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBA0FBE02A67CF5900F83FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA0FBEA2A67DB4100F83FBC /* MainWeatherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherViewCell.swift; sourceTree = "<group>"; };
+		EBA0FBED2A67E26700F83FBC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EBA0FBF12A67E61100F83FBC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EBA0FBF32A67EA4200F83FBC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EBA0FBF62A67EB0200F83FBC /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		EBA0FBF82A67EC0D00F83FBC /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		EBA0FBFD2A67F7A100F83FBC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EBA0FBFF2A680CC900F83FBC /* AddCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCity.swift; sourceTree = "<group>"; };
+		EBBEBC1D2A6AA0FD0018C945 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
+		EBBEBC492A6D28A20018C945 /* Extension + Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Int.swift"; sourceTree = "<group>"; };
+		EBD3AAE62A77C9FB001B2A26 /* MainWeatherCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherCellViewModel.swift; sourceTree = "<group>"; };
+		EBD3AAE82A77DC43001B2A26 /* ForecastCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCellViewModel.swift; sourceTree = "<group>"; };
+		EBD3AAEB2A77EAB0001B2A26 /* GetCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCoordinate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36413E612FA75D2AE568D5CB /* Pods_AstonWeatherApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D13E8CD37B63D8589327E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E817E0A8A08D8D0F3B1A75BB /* Pods_AstonWeatherApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DBF893D4344D6CD7DF7FFBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E8DA9CA44129EB8F2DACA67 /* Pods-AstonWeatherApplication.debug.xcconfig */,
+				825E0EE3AA57ACEA3E387A89 /* Pods-AstonWeatherApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB1DC1B02A75092B00AE087B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0FBF32A67EA4200F83FBC /* NetworkManager.swift */,
+				EBD3AAEB2A77EAB0001B2A26 /* GetCoordinate.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EB1DC1B12A75094600AE087B /* AlertAddCity */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0FBFF2A680CC900F83FBC /* AddCity.swift */,
+			);
+			path = AlertAddCity;
+			sourceTree = "<group>";
+		};
+		EB8700FA2A6FABB3007BC434 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB8700F82A6FABB0007BC434 /* MainViewModel.swift */,
+				EB7BAC3E2A76B61400224EDB /* DetailViewModel.swift */,
+				EBD3AAEA2A77E75F001B2A26 /* ViewModelCell */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		EBA0FBC62A67CF5800F83FBC = {
 			isa = PBXGroup;
 			children = (
 				EBA0FBD12A67CF5800F83FBC /* AstonWeatherApplication */,
 				EBA0FBD02A67CF5800F83FBC /* Products */,
+				9DBF893D4344D6CD7DF7FFBF /* Pods */,
+				27D13E8CD37B63D8589327E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +137,64 @@
 			children = (
 				EBA0FBD22A67CF5800F83FBC /* AppDelegate.swift */,
 				EBA0FBD42A67CF5800F83FBC /* SceneDelegate.swift */,
-				EBA0FBD62A67CF5800F83FBC /* ViewController.swift */,
-				EBA0FBD82A67CF5800F83FBC /* Main.storyboard */,
+				EBA0FBFD2A67F7A100F83FBC /* Constant.swift */,
+				EB1DC1B12A75094600AE087B /* AlertAddCity */,
+				EB1DC1B02A75092B00AE087B /* Network */,
+				EBA0FBF52A67EAF700F83FBC /* Model */,
+				EB8700FA2A6FABB3007BC434 /* ViewModel */,
+				EBA0FBFC2A67F5F800F83FBC /* Controller */,
+				EBA0FBEC2A67DB4500F83FBC /* Cell */,
+				EBBEBC4B2A6D28E50018C945 /* Extension */,
 				EBA0FBDB2A67CF5900F83FBC /* Assets.xcassets */,
 				EBA0FBDD2A67CF5900F83FBC /* LaunchScreen.storyboard */,
 				EBA0FBE02A67CF5900F83FBC /* Info.plist */,
 			);
 			path = AstonWeatherApplication;
+			sourceTree = "<group>";
+		};
+		EBA0FBEC2A67DB4500F83FBC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0FBEA2A67DB4100F83FBC /* MainWeatherViewCell.swift */,
+				EBBEBC1D2A6AA0FD0018C945 /* ForecastTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EBA0FBF52A67EAF700F83FBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0FBF62A67EB0200F83FBC /* WeatherData.swift */,
+				EBA0FBF82A67EC0D00F83FBC /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBA0FBFC2A67F5F800F83FBC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0FBED2A67E26700F83FBC /* MainViewController.swift */,
+				EBA0FBF12A67E61100F83FBC /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBBEBC4B2A6D28E50018C945 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EBBEBC492A6D28A20018C945 /* Extension + Int.swift */,
+				EB2DAE0B2A6E9B8D00926C0D /* Extension + UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EBD3AAEA2A77E75F001B2A26 /* ViewModelCell */ = {
+			isa = PBXGroup;
+			children = (
+				EBD3AAE62A77C9FB001B2A26 /* MainWeatherCellViewModel.swift */,
+				EBD3AAE82A77DC43001B2A26 /* ForecastCellViewModel.swift */,
+			);
+			path = ViewModelCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBA0FBE32A67CF5900F83FBC /* Build configuration list for PBXNativeTarget "AstonWeatherApplication" */;
 			buildPhases = (
+				1A62D37C16BCA45D851CF17A /* [CP] Check Pods Manifest.lock */,
 				EBA0FBCB2A67CF5800F83FBC /* Sources */,
 				EBA0FBCC2A67CF5800F83FBC /* Frameworks */,
 				EBA0FBCD2A67CF5800F83FBC /* Resources */,
+				C3CF65B8BF49C8441D3A24FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +259,82 @@
 			files = (
 				EBA0FBDF2A67CF5900F83FBC /* LaunchScreen.storyboard in Resources */,
 				EBA0FBDC2A67CF5900F83FBC /* Assets.xcassets in Resources */,
-				EBA0FBDA2A67CF5800F83FBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A62D37C16BCA45D851CF17A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstonWeatherApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CF65B8BF49C8441D3A24FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstonWeatherApplication/Pods-AstonWeatherApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstonWeatherApplication/Pods-AstonWeatherApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstonWeatherApplication/Pods-AstonWeatherApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBA0FBCB2A67CF5800F83FBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA0FBD72A67CF5800F83FBC /* ViewController.swift in Sources */,
+				EBBEBC1E2A6AA0FD0018C945 /* ForecastTableViewCell.swift in Sources */,
+				EBA0FBF92A67EC0D00F83FBC /* Weather.swift in Sources */,
+				EBD3AAEC2A77EAB0001B2A26 /* GetCoordinate.swift in Sources */,
+				EBBEBC4A2A6D28A20018C945 /* Extension + Int.swift in Sources */,
+				EBA0FBF42A67EA4200F83FBC /* NetworkManager.swift in Sources */,
+				EBA0FBEB2A67DB4100F83FBC /* MainWeatherViewCell.swift in Sources */,
+				EB2DAE0C2A6E9B8D00926C0D /* Extension + UIView.swift in Sources */,
+				EBA0FBF72A67EB0200F83FBC /* WeatherData.swift in Sources */,
 				EBA0FBD32A67CF5800F83FBC /* AppDelegate.swift in Sources */,
+				EBA0FBF22A67E61100F83FBC /* DetailViewController.swift in Sources */,
+				EB8700F92A6FABB0007BC434 /* MainViewModel.swift in Sources */,
+				EBD3AAE92A77DC43001B2A26 /* ForecastCellViewModel.swift in Sources */,
+				EBD3AAE72A77C9FC001B2A26 /* MainWeatherCellViewModel.swift in Sources */,
+				EBA0FBFE2A67F7A100F83FBC /* Constant.swift in Sources */,
 				EBA0FBD52A67CF5800F83FBC /* SceneDelegate.swift in Sources */,
+				EBA0FBEE2A67E26700F83FBC /* MainViewController.swift in Sources */,
+				EB7BAC3F2A76B61400224EDB /* DetailViewModel.swift in Sources */,
+				EBA0FC002A680CC900F83FBC /* AddCity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EBA0FBD82A67CF5800F83FBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBA0FBD92A67CF5800F83FBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EBA0FBDD2A67CF5900F83FBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +462,7 @@
 		};
 		EBA0FBE42A67CF5900F83FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8DA9CA44129EB8F2DACA67 /* Pods-AstonWeatherApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +473,7 @@
 				INFOPLIST_FILE = AstonWeatherApplication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +491,7 @@
 		};
 		EBA0FBE52A67CF5900F83FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825E0EE3AA57ACEA3E387A89 /* Pods-AstonWeatherApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +502,7 @@
 				INFOPLIST_FILE = AstonWeatherApplication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
