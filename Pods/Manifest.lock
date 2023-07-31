@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (5.6.0)
+  - SwiftSVG (2.3.2)
+
+DEPENDENCIES:
+  - SnapKit (~> 5.6)
+  - SwiftSVG (~> 2.3)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SwiftSVG
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftSVG: ca7f64e403b8ea7ea8eba8c823b83ba4a059834c
+
+PODFILE CHECKSUM: 0ca9232b9ed87c56dd6680a93579ae0f1f904242
+
+COCOAPODS: 1.12.1
